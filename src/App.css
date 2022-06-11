@@ -1,7 +1,27 @@
-#animated{
-    animation: shakeY; 
+#animated {
+    animation: shakeY;
     animation-duration: 1.5s;
     animation-delay: 200ms;
 }
 
-  
+.shadow {
+    animation: shadow-drop-top-bottom 0.4s linear both;
+}
+
+@keyframes shadow-drop-top-bottom {
+    0% {
+        box-shadow: 0 0 0 0 transparent, 0 0 0 0 transparent;
+    }
+
+    100% {
+        box-shadow: 0 -12px 20px -12px rgba(255, 255, 255, 0.55),
+            0 12px 20px -12px rgba(255, 255, 255, 0.55);
+    }
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #242424;
+}
