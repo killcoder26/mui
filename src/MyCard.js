@@ -38,8 +38,8 @@ function MyCard() {
 
 
     return (
-        <Box component="div" sx={{ backgroundColor: colo }}>
-            <center><Card sx={{ maxWidth: '90vh', height: '80vh', backgroundColor: colo2 }}>
+        <Box component="div" sx={{ backgroundColor: colo, height: '80vh', paddingTop: 2 }}>
+            <center><Card sx={{ maxWidth: '90vh', height: '70vh', backgroundColor: colo2, }}>
                 <CardActionArea>
                     <CardMedia
                         component="img"
@@ -50,7 +50,7 @@ function MyCard() {
                     <CardContent>
                     </CardContent>
                     <Button variant="contained" sx={{ backgroundColor: "black", '&:hover': { backgroundColor: "orange" }, borderRadius: 10 }} onClick={change} >Switch Backgrounds</Button>
-                    <Button variant="contained" sx={{ backgroundColor: "black", '&:hover': { backgroundColor: "orange" }, borderRadius: 10 }} onClick={change2} >Switch Card</Button>
+                    <Button variant="contained" sx={{ backgroundColor: "black", '&:hover': { backgroundColor: "#560bad" }, borderRadius: 10, marginLeft: 2 }} onClick={change2} >Switch Card</Button>
                 </CardActionArea>
             </Card></center>
         </Box >

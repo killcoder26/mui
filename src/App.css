@@ -25,3 +25,17 @@
     width: 100%;
     background-color: #242424;
 }
+
+.greet {
+    color: rgb(255, 166, 0);
+    font-size: 32px;
+    font-family: Comic Sans MS;
+    padding-right: 82vh;
+
+}
+
+#time {
+    border: 1px solid white;
+    border-radius: 5px;
+
+}
