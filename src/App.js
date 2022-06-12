@@ -1,15 +1,18 @@
 import './App.css';
-import Footer from './Footer';
-import MyCard from './MyCard';
-import Navbar from './Navbar';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Video from './Video';
+import MyApp from './MyApp';
 
 function App() {
 
   return (
     <div >
-      <div><Navbar /> </div>
-      <div> <MyCard /> </div>
-      <div className="footer"><center><Footer /></center> </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<MyApp />} />
+          <Route path="/new" element={<Video />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
