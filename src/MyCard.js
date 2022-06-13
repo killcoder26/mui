@@ -71,7 +71,7 @@ function MyCard() {
                     <CardMedia
                         component="img"
                         height="250"
-                        image="https://res.cloudinary.com/mycloud2604/image/upload/v1654938648/dl.beatsnoop.com-1654938626_gxpxnp.jpg"
+                        image="https://res.cloudinary.com/mycloud2604/image/upload/v1655094353/cartoon-dog_u249q1.gif"
                         alt="child"
                     />
                     <CardContent>
